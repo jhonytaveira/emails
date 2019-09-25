@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Emails</h1><br>
+
+  <table id="emails">
+    <thead>
+      <tr>
+        <th><%= t('name') %></th>
+        <th><%= t('phone') %></th>
+        <th><%= t('car') %></th>
+        <th><%= t('value') %></th>
+        <th><%= t('year') %></th>
+        <th><%= t('link_car') %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><%= @emails.dig('name') %></td>
+        <td><%= @emails.dig('phone') %></td>
+        <td><%= @emails.dig('car') %></td>
+        <td><%= @emails.dig('value') %></td>
+        <td><%= @emails.dig('year') %></td>
+        <td><%= link_to 'Link do veículo', @emails.dig('link_car'), target: '_blank' %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
