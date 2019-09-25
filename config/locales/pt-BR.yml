@@ -1,0 +1,8 @@
+pt-BR:
+  name: 'Nome do interessado:'
+  phone: 'Telefone do interessado:'
+  message: 'Mensagem:'
+  car: 'Veículo:'
+  value: 'Valor:'
+  year: 'Ano:'
+  link_car: 'Link do veículo:'
