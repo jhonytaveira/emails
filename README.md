@@ -1,24 +1,35 @@
-# README
+# Show emails
+&nbsp;
+### Installation
+   Ruby version 2.5.3
+ 
+   Rails version 5.2.3
+ 
+```sh
+git clone https://github.com/jhonytaveira/emails.git
+cd emails/
+bundle install
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```sh
+rails s
+```
 
-Things you may want to cover:
+&nbsp;
+&nbsp;
 
-* Ruby version
+# Project details
 
-* System dependencies
+***Main resources used:*** ruby, rails and rspec.
 
-* Configuration
 
-* Database creation
+**-** Application to collect data from email file and show for user.    
 
-* Database initialization
 
-* How to run the test suite
+# running tests
 
-* Services (job queues, cache servers, search engines, etc.)
+features test with rspec and capybara
 
-* Deployment instructions
-
-* ...
+```sh
+rspec rspec spec/services/parse_email.rb
+```
