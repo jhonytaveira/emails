@@ -71,7 +71,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.12.0)
     nio4r (2.5.2)
-    nokogiri (1.10.4)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -157,7 +157,7 @@ PLATFORMS
 
 DEPENDENCIES
   mail (~> 2.7, >= 2.7.1)
-  nokogiri (~> 1.10, >= 1.10.4)
+  nokogiri (~> 1.10)
   pry-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
