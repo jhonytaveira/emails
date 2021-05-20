@@ -5,7 +5,7 @@ ruby '2.5.3'
 
 gem 'rails', '~> 5.2.3'
 gem 'puma', '~> 3.11'
-gem 'nokogiri', '~> 1.10', '>= 1.10.4'
+gem 'nokogiri', '~> 1.11'
 gem 'mail', '~> 2.7', '>= 2.7.1'
 gem 'turbolinks'
 
